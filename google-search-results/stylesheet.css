@@ -1,0 +1,44 @@
+.topnav{
+	padding: 15px;
+}
+.topnav a{
+	padding-right: 20px;
+}
+.topnav input{
+	position: relative;
+	vertical-align: top;
+	width: 625px;
+}
+
+.topnav-right{
+	float: right;
+}
+
+.topnav-right img{
+	vertical-align: top;
+	padding-right: 15px;
+}
+
+.lower-top-nav{
+	padding-left: 150px;
+	width: 650px;
+}
+
+.lower-top-nav a{
+	padding-right: 20px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #000;
+	opacity: 0.75;
+}
+
+.lower-top-nav-right{
+	float: right;
+}
+
+.calculation{
+	padding-left: 150px;
+	font-size: 13px;
+	opacity: 0.50;
+}
+
