@@ -1,24 +1,78 @@
-li {
-	display: inline;
-	padding-right: 15px;
-}
-
-a {
-	text-decoration: none;
-}
-
-.center {
-	text-align: center;
-}
-
 input {
 	width: 400px;
 }
 
-.nav-right {
+.topnav{
+}
+
+.topnav a{
+	text-decoration: none;
+	padding: 10px;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+}
+
+.topnav a:hover{
+	text-decoration: underline;
+}
+
+.topnav-left{
+	float: left;
+}
+
+.topnav-right {
 	float: right;
 }
 
-.search-buttons {
+.center {
+	position: absolute;
+	display: block;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	margin-left: -250px;
+    margin-top: -75px;
+}
+
+.center li{
+	display: inline;
+}
+
+.center a{
+	text-decoration: none;
+}
+
+.search-button {
 	background-color: rgb(248, 248, 248);
+	width: 150px;
+}
+
+.botnav{
+	background-color: #f0f0f0;
+	line-height: 40px;
+	font-size: 13px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.botnav a{
+	text-decoration: none;
+	padding-right: 27px;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+}
+
+.botnav a:hover{
+	text-decoration: underline;
+}
+
+.botnav-left{
+	float: left;
+}
+
+.botnav-right {
+	float: right;
 }
