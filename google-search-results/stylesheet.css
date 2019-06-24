@@ -1,3 +1,7 @@
+body{
+	font-family: arial, sans-serif;
+}
+
 .topnav{
 	padding: 15px;
 }
@@ -38,7 +42,50 @@
 
 .calculation{
 	padding-left: 150px;
+	padding-bottom: 10px;
 	font-size: 13px;
 	opacity: 0.50;
 }
 
+.results{
+	padding-left: 150px;
+	width: 650px;
+}
+
+.results a{
+	text-decoration: none;
+}
+
+.results a:hover{
+	text-decoration: underline;
+}
+
+.results p{
+	margin: 0;
+	padding-bottom: 4px;
+}
+
+.result{
+	padding-bottom: 30px;
+}
+
+.result-url{
+	font-size: 13px;
+	color: green;
+}
+
+.result-desc{
+	font-size: 13px;
+	color: black;
+	opacity: 0.75;
+}
+
+.related{
+	padding-left: 150px;
+}
+
+.related a{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
