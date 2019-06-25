@@ -4,7 +4,7 @@ All of my projects from the Odin Projects curriculem
 ### Web Development 101 Projects
 
 - [X] Clone Google Homepage
-- [ ] Clone Google Search Results Page
+- [X] Clone Google Search Results Page
 - [ ] Solve Euler problems using JavaScript
 - [ ] Build a Etch-a-Sketch Game
 - [ ] Build a Rails Blogging System
