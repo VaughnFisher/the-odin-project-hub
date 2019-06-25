@@ -2,6 +2,13 @@ body{
 	font-family: arial, sans-serif;
 }
 
+footer{
+	margin: -10px;
+	background-color: #f0f0f0;
+	font-family: arial, sans-serif;
+	padding-bottom: 15px;
+}
+
 .topnav{
 	padding: 15px;
 }
@@ -67,10 +74,11 @@ body{
 
 .result{
 	padding-bottom: 30px;
+	font-size: 18px;
 }
 
 .result-url{
-	font-size: 13px;
+	font-size: 14px;
 	color: green;
 }
 
@@ -82,10 +90,38 @@ body{
 
 .related{
 	padding-left: 150px;
+	padding-bottom: 10px;
 }
 
 .related a{
 	text-decoration: none;
 	font-size: 13px;
 	font-weight: bold;
+}
+
+.related a:hover{
+	text-decoration: underline;
+}
+
+.location{
+	padding-left: 160px;
+}
+
+footer p{
+	padding-top: 3px; 
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.nav-bottom{
+	padding-left: 160px;
+	font-size: 15px;
+	color: black;
+	opacity: 0.50;
+}
+
+.nav-bottom a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: black;
 }
